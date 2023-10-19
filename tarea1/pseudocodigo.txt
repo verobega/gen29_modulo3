@@ -1,0 +1,13 @@
+Inicio
+         Leer Str entradas: a[]
+         Str stringMayor = a[0]
+         Str tamanoArreglo = a.length
+         Int i = 0
+     
+        Durante i < tamanoArreglo entonces:
+                     si a[i] > stringMayor:
+                               valorMayor = a[i]
+                       i = i + 1
+        finSi
+        Regresar stringMayor
+Fin
